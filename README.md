@@ -5,4 +5,4 @@ This repository is a collection of my projects, demonstrating my skills and expe
 In this repository, you will find a diverse range of projects, including [Event page, student_submit_form, registration_form, periodic_table all created with the help(HTML) ].
 
 
-I have also implemented best practices such as [ projects given by the professor such as Business Analytics and carousel_post for organic_tattva Recreated amul controversial post and also created a presentation on The Impact of AR Insta filter on self-image ].
+I have also implemented best practices such as [ projects given by the professor such as Business Analytics and carousel_post for organic_tattva Recreated amul controversial post and also created a logo for an organisation].
