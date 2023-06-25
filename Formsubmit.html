@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+    <style>
+        body {
+           background-image:url('https://media.istockphoto.com/id/1160194662/vector/abstract-form-background.jpg?s=170667a&w=0&k=20&c=ZG-CXS8etRaQwQzaWhLB5X39GzjlhvZA5Pqk_6hmw6M=');
+           background-size: cover;
+         
+        }
+    
+    
+        h1{
+            text-decoration: italic;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: medium;
+        }
+        div{
+            
+            width:50%;
+            background-color: rgba(71, 61, 139, 0.815);
+            padding: 10px;
+            border: 2px solid rgba(71, 61, 139, 0.815) ;
+            margin:  auto ;
+            
+        }
+
+        .white{
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            
+
+            
+        }
+
+        button{
+            width: 80px;
+            border-radius: 4px;
+            border: 1px solid black;
+            padding:5px;
+            height: 25px;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(211, 211, 211, 0.568);
+        
+        }
+       
+       
+    </style>
+</head>
+<body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <div>
+        
+        <form>
+            <label class="white">FIRST NAME</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text">
+            <label class="white">(max 30 characters a-z and A-Z)</label><br><br>
+
+            <label class="white">LAST NAME</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text">
+            <label class="white">(max 30 characters a-z and A-Z)</label><br><br>
+
+            <label class="white">DATE OF BIRTH</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select>
+                <option selected="" disabled="">Day</option>
+                <option>MONDAY</option>
+                <option>TUESDAY</option>
+                <option>WEDNESDAY</option>
+                <option>THURSDAY</option>
+                <option>FRIDAY</option>
+                <option>SATURDAY</option>
+                <option>SUNDAY</option>
+            </select>
+            <select>
+                <option selected="" disabled="">Month</option>
+                <option>JAN</option>
+                <option>FEB</option>
+                <option>MAR</option>
+                <option>APR</option>
+                <option>MAY</option>
+                <option>JUN</option>
+                <option>JULY</option>
+                <option>AUG</option>
+                <option>SEPT</option>
+                <option>OCT</option>
+                <option>NOV</option>
+                <option>DEC</option>
+            </select>
+            <select>
+                <option selected="" disabled="">Year</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </select>
+            <br><br>
+
+            <label class="white">EMAIL ID</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email"><br><br>
+            <label class="white">MOBILE NUMBER</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number">
+            <label class="white">(10 digit number)</label><br><br>
+            <label class="white">GENDER</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label class="white">Male</label>
+            <input type="radio" name="GENDER">
+            <label class="white">Female</label>
+            <input type="radio" name="GENDER"><br><br>
+            <label class="white">ADDRESS</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea rows="5" cols="40"></textarea><br><br>
+            <label class="white">CITY</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text">
+            <label class="white">(max 30 characters a-z and A-Z)</label><br><br>
+            <label class="white">PIN CODE</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text">
+            <label class="white">(6 digit number)</label><br><br>
+            <label class="white">STATE</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text">
+            <label class="white">(max 30 characters a-z and A-Z)</label><br><br>
+            <label class="white">COUNTRY</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="India">
+            <br><br>
+            <label class="white">HOBBIES</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label class="white">Drawing</label>
+            <input type="Checkbox" name="HOBBIES">
+            <label class="white">Singing</label>
+            <input type="Checkbox" name="HOBBIES">
+            <label class="white">Dancing</label>
+            <input type="Checkbox" name="HOBBIES">
+            <label class="white">Sketching</label>
+            <input type="Checkbox" name="HOBBIES"><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label class="white">Others</label>
+            <input type="Checkbox" name="HOBBIES">
+            <textarea cols="40"></textarea><br><br>
+
+            <label class="white">QUALIFICATION</label><br>
+            <table class="white">
+                <tbody>
+                    <tr>
+                        <th>SI.NO.</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Class X</td>
+                        <td> <input type="text"></td>
+                        <td> <input type="number"></td>
+                        <td> <input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Class XII</td>
+                        <td> <input type="text"></td>
+                        <td> <input type="number"></td>
+                        <td> <input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Graduation</td>
+                        <td> <input type="text"></td>
+                        <td> <input type="number"></td>
+                        <td> <input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Masters</td>
+                        <td> <input type="text"></td>
+                        <td> <input type="number"></td>
+                        <td> <input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td style="text-align: center;"><label class="white">(10 char max)</label> </td>
+                        <td style="text-align: center;"><label class="white">(upto 2 decimal)</label> </td>
+                        <td> </td>
+                    </tr>
+                </tbody>
+            </table>
+           <br><br>
+            <label class="white">COURSES <br> APPLIED FOR </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label class="white">BCA</label>
+            <input type="radio" name="COURSES APPLIED FOR">
+            <label class="white">B.Com</label>
+            <input type="radio" name="COURSES APPLIED FOR">
+            <label class="white">B.Sc</label>
+            <input type="radio" name="COURSES APPLIED FOR">
+            <label class="white">BA</label>
+            <input type="radio" name="COURSES APPLIED FOR"><br>
+            <div style="text-align: center;width: 500px;background-color: rgba(71, 61, 139, 0.034); border:none;">
+
+                <button type="Submit">Submit</button>&nbsp;&nbsp;<button type="Reset">Reset</button>
+            </div>
+            
+           
+            
+    
+
+        </form>
+    </div>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

@@ -1,0 +1,60 @@
+<html>
+<head><title>Registration Form</title>
+<style>
+body {
+      background-image:url('https://img.freepik.com/free-photo/abstract-blurred-people-seminar-event-background_1439-7.jpg?w=360');
+      background-size: cover;
+      background-position: center;
+     }
+
+    #container {
+       max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(255,255,255,0.8);
+      text-align: center;
+      color: black;
+      margin-top: 50px;
+      border-radius: 10px;
+     
+    }
+input{
+border-radius: 2px;
+}
+h1{
+      text-align: center;
+    }
+form{
+      text-align: center;
+    }
+
+</style>
+<body>
+ <div id="container">
+  <h1>Registration Form</h1>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+   <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    
+    <br><label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+    
+    <br><label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br>
+    
+   <br> <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+      <option selected disabled>Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option><br>
+    </select>
+    
+    <br><br><br><input type="submit" value="Register">
+</div>
+  </form>
+</body>
+</html>
